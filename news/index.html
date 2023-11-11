@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/news/style.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-[#1d1d1d]">
+        <nav class="mt-[15px]">
+            <div
+                class="flex flex-row border-gray-500 border-b-[1px] justify-between items-center text-white xl:h-[45px] h-[40px] bg-[#242424] w-[85%] xl:px-[10px] px-[15px] mx-auto"
+            >
+                <div class="logo flex flex-row gap-[40px] items-center">
+                    <div class="flex flex-row gap-[15px]">
+                        <img
+                            src="/images/icons8-menu-50.png"
+                            alt=""
+                            class="w-[20px] h-[20px] invert-[100%] xl:hidden block"
+                        />
+                        <a href="/">
+                            <img
+                                src="/images/cod-logo.svg"
+                                alt=""
+                                srcset=""
+                                class="w-[90px] h-[25px]"
+                            />
+                        </a>
+                    </div>
+                    <div
+                        class="xl:flex xl:flex-row xl:block hidden items-center"
+                    >
+                        <div class="dropdown">
+                            <p
+                                class="dropbtn hover:bg-[#0000003d] px-[15px] py-[12px]"
+                            >
+                                <a href="#">GAMES +</a>
+                            </p>
+                            <div class="dropdown-content">
+                                <a href="#">MODERN WARFARE III</a>
+                                <a href="#">MODERN WARFARE II</a>
+                                <a href="#">COD: WARZONE</a>
+                                <a href="#">VANGUARD</a>
+                                <a href="#">COD: WARZONE MOBILE</a>
+                                <a href="#">CALL OF DUTY: MOBILE</a>
+                            </div>
+                        </div>
+                        <p class="hover:bg-[#0000003d] px-[15px] py-[12px]">
+                            <a href="/news/index.html">NEWS</a>
+                        </p>
+                        <div class="dropdown">
+                            <p
+                                class="dropbtn hover:bg-[#0000003d] px-[15px] py-[12px]"
+                            >
+                                <a href="#">ESPORTS +</a>
+                            </p>
+                            <div class="dropdown-content">
+                                <a href="#">CALL OF DUTY LEAGUE</a>
+                                <a href="#">MODERN WARFARE II</a>
+                                <a href="#">COD: WARZONE</a>
+                            </div>
+                        </div>
+                        <p class="hover:bg-[#0000003d] px-[15px] py-[12px]">
+                            <a href="#">SUPPORT</a>
+                        </p>
+                        <div class="dropdown">
+                            <p class="hover:bg-[#0000003d] px-[15px] py-[12px]">
+                                <a href="#">SHOP +</a>
+                            </p>
+                            <div class="dropdown-content">
+                                <a href="#">CALL OF DUTY LEAGUE</a>
+                                <a href="#">MODERN WARFARE II</a>
+                                <a href="#">BUY: VANGUARD</a>
+                                <a href="#">COD GEAR SHOP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:flex xl:flex-row xl:items-center xl:gap-[25px]">
+                    <p class="hidden xl:block">
+                        <a href="/login/index.html">lOGIN</a> |
+                        <a href="">SIGN UP</a>
+                    </p>
+                    <button
+                        class="bg-[red] text-white xl:text-black xl:text-[14px] text-[10px] whitespace-nowrap px-[10px] py-[5px] rounded-[2px] font-[600] hover:outline hover:outline-[2px] hover:outline-offset-4 hover:outline-[red] transition ease-in duration-300"
+                    >
+                        PRE-ORDER NWIII
+                    </button>
+                </div>
+            </div>
+            <div
+                class="flex flex-row opacity-[0.95] relative justify-between items-center text-white xl:h-[45px] h-[40px] bg-[#242424] w-[85%] xl:px-[10px] px-[15px] mx-auto"
+            >
+                <div
+                    class="flex flex-row justify-between gap-[100px] items-center"
+                >
+                    <div
+                        class="flex-row dropdown flex gap-[5px] h-[40px] items-center"
+                    >
+                        <div
+                            class="dropbtnr flex flex-row gap-[5px] items-center"
+                        >
+                            <img
+                                src="/icons/dropicon.png"
+                                alt=""
+                                class="xl:w-[25px] xl:h-[25px] w-[15px] h-[15px] float-right"
+                            />
+                            <span> + </span>
+                        </div>
+                        <div class="dropdown-content1">
+                            <div class="flex flex-row px-[15px] items-center">
+                                <img
+                                    src="/icons/dropicon.png"
+                                    alt=""
+                                    class="xl:w-[25px] xl:h-[25px] w-[15px] h-[15px]"
+                                />
+                                <a href="#">CALL OF DUTY</a>
+                            </div>
+                            <div class="flex flex-row px-[15px] items-center">
+                                <img
+                                    src="/icons/dropicon.png"
+                                    alt=""
+                                    class="xl:w-[25px] xl:h-[25px] w-[15px] h-[15px]"
+                                />
+                                <a href="#">CALL OF DUTY: MODERN WARGARE III</a>
+                            </div>
+                            <div class="flex flex-row px-[15px] items-center">
+                                <img
+                                    src="/icons/dropicon.png"
+                                    alt=""
+                                    class="xl:w-[25px] xl:h-[25px] w-[15px] h-[15px]"
+                                />
+                                <a href="#">CALL OF DUTY: MODERN WARFARE II</a>
+                            </div>
+                            <div class="flex flex-row px-[15px] items-center">
+                                <img
+                                    src="/icons/dropicon.png"
+                                    alt=""
+                                    class="xl:w-[25px] xl:h-[25px] w-[15px] h-[15px]"
+                                />
+                                <a href="#">CALL OF DUTY: VANGUARD</a>
+                            </div>
+                            <div class="flex flex-row px-[15px] items-center">
+                                <img
+                                    src="/icons/dropicon.png"
+                                    alt=""
+                                    class="xl:w-[25px] xl:h-[25px] w-[15px] h-[15px]"
+                                />
+                                <a href="#">CALL OF DUTY: BLACK OPS COLD WAR</a>
+                            </div>
+                            <div class="flex flex-row px-[15px] items-center">
+                                <img
+                                    src="/icons/dropicon.png"
+                                    alt=""
+                                    class="xl:w-[25px] xl:h-[25px] w-[15px] h-[15px]"
+                                />
+                                <a href="#">CALL OF DUTY: WARZONE</a>
+                            </div>
+                            <div class="flex flex-row px-[15px] items-center">
+                                <img
+                                    src="/icons/dropicon.png"
+                                    alt=""
+                                    class="xl:w-[25px] xl:h-[25px] w-[15px] h-[15px]"
+                                />
+                                <a href="#">CALL OF DUTY: WARZONE MOBILE</a>
+                            </div>
+                            <div class="flex flex-row px-[15px] items-center">
+                                <img
+                                    src="/icons/dropicon.png"
+                                    alt=""
+                                    class="xl:w-[25px] xl:h-[25px] w-[15px] h-[15px]"
+                                />
+                                <a href="#">CALL OF DUTY: MOBILE </a>
+                            </div>
+                        </div>
+                        <div
+                            class="xl:hidden block border-l-2 border-gray-500 h-[40px]"
+                        ></div>
+                    </div>
+                    <div
+                        class="xl:flex xl:flex-row xl:gap-[30px] xl:block hidden"
+                    >
+                        <p><a href="#">BLOG</a></p>
+                        <p><a href="$">PATCH NOTES</a></p>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-row gap-[15px] items-center border-l-[1px] pl-[5px] border-gray-600 h-[45px]"
+                >
+                    <div class="dropdown">
+                        <a href="#" class="flex flex-row gap-[5px] dropbtn">
+                            <span class="xl:block hidden">
+                                SELECT LANGUAGE
+                            </span>
+                            <img
+                                src="/icons/united-states.png"
+                                alt=""
+                                class="w-[25px] h-[25px]"
+                            />
+                            <img
+                                src="/icons/down-arrow.png"
+                                alt=""
+                                class="xl:w-[15px] xl:h-[20px] w-[10px] h-[15px] invert relative top-[5px]"
+                            />
+                        </a>
+                        <div class="dropdown-content2">
+                            <h1 class="text-[12px]">SELECTED REGION: UNITED STATES</h1>
+                            <div class="grid grid-cols-2 gap-[5px] py-[15px] xl:min-w-[350px] min-w-[200px]">
+                                <div
+                                    class="cursor-pointer flex flex-row items-center gap-[5px]"
+                                >
+                                    <img
+                                        src="/icons/united-states.png"
+                                        alt=""
+                                        class="w-5 h-5"
+                                    />
+                                    <p class="text-[10px]">United states <span class="text-[10px]">√</span></p>
+                                </div>
+                                <div
+                                    class="cursor-pointer flex flex-row items-center gap-[5px]"
+                                >
+                                    <img
+                                        src="/icons/canada.png"
+                                        alt=""
+                                        class="w-5 h-5"
+                                    />
+                                    <p class="text-[10px]">English kanada</p>
+                                </div>
+                                <div
+                                    class="cursor-pointer flex flex-row items-center gap-[5px]"
+                                >
+                                    <img
+                                        src="/icons/canada.png"
+                                        alt=""
+                                        class="w-5 h-5"
+                                    />
+                                    <p class="text-[10px]">English kanada</p>
+                                </div>
+                                <div
+                                    class="cursor-pointer flex flex-row items-center gap-[5px]"
+                                >
+                                    <img
+                                        src="/icons/canada.png"
+                                        alt=""
+                                        class="w-5 h-5"
+                                    />
+                                    <p class="text-[10px]">English kanada</p>
+                                </div>
+                                <div
+                                    class="cursor-pointer flex flex-row items-center gap-[5px]"
+                                >
+                                    <img
+                                        src="/icons/canada.png"
+                                        alt=""
+                                        class="w-5 h-5"
+                                    />
+                                    <p class="text-[10px]">English kanada</p>
+                                </div>
+                                <div
+                                    class="cursor-pointer flex flex-row items-center gap-[5px]"
+                                >
+                                    <img
+                                        src="/icons/canada.png"
+                                        alt=""
+                                        class="w-5 h-5"
+                                    />
+                                    <p class="text-[10px]">English kanada</p>
+                                </div>
+                                <div
+                                    class="cursor-pointer flex flex-row items-center gap-[5px]"
+                                >
+                                    <img
+                                        src="/icons/canada.png"
+                                        alt=""
+                                        class="w-5 h-5"
+                                    />
+                                    <p class="text-[10px]">English kanada</p>
+                                </div>
+                                <div
+                                    class="cursor-pointer flex flex-row items-center gap-[5px]"
+                                >
+                                    <img
+                                        src="/icons/canada.png"
+                                        alt=""
+                                        class="w-5 h-5"
+                                    />
+                                    <p class="text-[10px]">English kanada</p>
+                                </div>
+                                <div
+                                    class="cursor-pointer flex flex-row items-center gap-[5px]"
+                                >
+                                    <img
+                                        src="/icons/canada.png"
+                                        alt=""
+                                        class="w-5 h-5"
+                                    />
+                                    <p class="text-[10px]">English kanada</p>
+                                </div>
+                                <div
+                                    class="cursor-pointer flex flex-row items-center gap-[5px]"
+                                >
+                                    <img
+                                        src="/icons/canada.png"
+                                        alt=""
+                                        class="w-5 h-5"
+                                    />
+                                    <p class="text-[10px]">English kanada</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-l-[1px] border-gray-600 h-[45px]"></div>
+                    <img
+                        src="/icons/search-interface-symbol.png"
+                        alt=""
+                        class="invert xl:w-[20px] xl:h-[20px] w-[15px] h-[15px]"
+                    />
+                </div>
+            </div>
+        </nav>
+        <section
+            class="xl:mx-[115px] my-[85px] mx-[25px] flex xl:flex-row flex-col justify-between gap-[40px]"
+        >
+            <div>
+                <div class="cursor-pointer overflow-hidden">
+                    <img
+                        src="/images/img4.jpg"
+                        alt=""
+                        class="object-cover xl:w-[860px] xl:h-[480px] w-[383px] h-[215px] hover:scale-[1.05]"
+                    />
+                </div>
+
+                <div class="flex flex-row justify-between my-[15px]">
+                    <p class="bg-[#9C978F]">MWIII</p>
+                    <p class="text-[#9C978F]">3 days ago</p>
+                </div>
+                <div class="mb-[20px]">
+                    <h1 class="text-white text-2xl my-[15px]">
+                        MODERN WARFARE III WEAPON CAMOS: ALL THE DETAILS
+                    </h1>
+                    <div class="flex flex-row text-[#9C978F] gap-[5px]">
+                        <p
+                            class="border-gray-600 border-[1px] px-[5px] xl:text-[12px] text-[10px]"
+                        >
+                            NEWS
+                        </p>
+                        <p
+                            class="border-gray-600 border-[1px] px-[5px] xl:text-[12px] text-[10px]"
+                        >
+                            ANNOUNCEMENTS
+                        </p>
+                        <p
+                            class="border-gray-600 border-[1px] px-[5px] xl:text-[12px] text-[10px]"
+                        >
+                            ENHANCO INTEL
+                        </p>
+                        <p
+                            class="border-gray-600 border-[1px] px-[5px] xl:text-[12px] text-[10px]"
+                        >
+                            PRESTIGE PRIMER
+                        </p>
+                    </div>
+                </div>
+                <p class="text-white xl:block hidden">
+                    Could this be the biggest weapon progression feature in Call
+                    of Duty history? We showcase the immense Multiplayer and
+                    Zombies Camo Challenge and Weapon Mastery system for your
+                    MWII and MWIII arsenal, as well as detailing the returning
+                    and new Challenges!
+                </p>
+            </div>
+            <div class="flex flex-col justify-between gap-[50px]">
+                <div class="xl:w-[450px] w-auto border-gray-600 border-b-[1px]">
+                    <div class="overflow-hidden">
+                        <img
+                            src="/images/1.jpg"
+                            alt=""
+                            class="xl:w-[450px] xl:h-[225px] w-[382px] h-[215px] hover:scale-[1.05]"
+                        />
+                    </div>
+                    <div class="flex flex-row justify-between my-[5px]">
+                        <p class="bg-[#9C978F]">MWIII</p>
+                        <p class="text-[#9C978F]">8 days ago</p>
+                    </div>
+                    <div class="my-[30px]">
+                        <h1 class="text-white xl:text-2xl text-1xl">
+                            MODERN WARFARE III WEAPON CAMOS: ALL THE DETAILS
+                        </h1>
+                        <div class="text-[#9C978F]">
+                            <span
+                                class="border-gray-600 border-[1px] px-[5px] text-[12px] mr-[15px]"
+                            >
+                                NEWS
+                            </span>
+                            <span
+                                class="border-gray-600 border-[1px] px-[5px] text-[12px] xl:mx-[15px] mr-[15px]"
+                            >
+                                ANNOUNCEMENTS
+                            </span>
+                            <span
+                                class="border-gray-600 border-[1px] px-[5px] text-[12px] xl:mx-[15px] mr-[15px]"
+                            >
+                                FEATURES
+                            </span>
+                            <span
+                                class="border-gray-600 border-[1px] px-[5px] text-[12px] xl:mx-[15px] mr-[15px]"
+                            >
+                                ENHANCO INTEL
+                            </span>
+                            <span
+                                class="border-gray-600 border-[1px] px-[5px] text-[12px] mr-[15px]"
+                            >
+                                PRESTIGE PRIMER
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:w-[450px] w-auto border-gray-600 border-b-[1px]">
+                    <div class="overflow-hidden">
+                        <img
+                            src="/images/1.jpg"
+                            alt=""
+                            class="xl:w-[450px] xl:h-[225px] w-[382px] h-[215px] hover:scale-[1.05]"
+                        />
+                    </div>
+
+                    <div class="flex flex-row justify-between my-[5px]">
+                        <p class="bg-[#9C978F]">MWIII</p>
+                        <p class="text-[#9C978F]">8 days ago</p>
+                    </div>
+                    <div class="my-[30px]">
+                        <h1 class="text-white xl:text-2xl text-1xl">
+                            MODERN WARFARE III WEAPON CAMOS: ALL THE DETAILS
+                        </h1>
+                        <div class="text-[#9C978F]">
+                            <span
+                                class="border-gray-600 border-[1px] px-[5px] text-[12px] mr-[15px]"
+                            >
+                                NEWS
+                            </span>
+                            <span
+                                class="border-gray-600 border-[1px] px-[5px] text-[12px] xl:mx-[15px] mr-[15px]"
+                            >
+                                ANNOUNCEMENTS
+                            </span>
+                            <span
+                                class="border-gray-600 border-[1px] px-[5px] text-[12px] xl:mx-[15px] mr-[15px]"
+                            >
+                                FEATURES
+                            </span>
+                            <span
+                                class="border-gray-600 border-[1px] px-[5px] text-[12px] xl:mx-[15px] mr-[15px]"
+                            >
+                                ENHANCO INTEL
+                            </span>
+                            <span
+                                class="border-gray-600 border-[1px] px-[5px] text-[12px] mr-[15px]"
+                            >
+                                PRESTIGE PRIMER
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="xl:mx-[115px] mx-[25px]">
+            <h1 class="text-4xl font-black text-white">MORE NEWS:</h1>
+            <div class="grid xl:grid-cols-3 grid-cols-1 gap-[25px] my-[25px]">
+                <div class="border-gray-600 border-b-[1px] pb-[25px]">
+                    <div class="flex flex-row gap-[25px]">
+                        <div class="overflow-hidden">
+                            <img
+                                src="/images/2.jpg"
+                                alt=""
+                                class="w-[300px] h-[100px] hover:scale-[1.1]"
+                            />
+                        </div>
+                        <div class="flex flex-col justify-evenly">
+                            <h1 class="text-white">
+                                Call of Duty: Modern Warfare III Campaign: How
+                                to Play
+                            </h1>
+
+                            <span class="bg-[#9C978F] w-[45px]">MWIII</span>
+                            <p class="text-[#9C978F]">8 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-gray-600 border-b-[1px] pb-[25px]">
+                    <div class="flex flex-row gap-[25px]">
+                        <div class="overflow-hidden">
+                            <img
+                                src="/images/2.jpg"
+                                alt=""
+                                class="w-[300px] h-[100px] hover:scale-[1.1]"
+                            />
+                        </div>
+                        <div class="flex flex-col justify-evenly">
+                            <h1 class="text-white">
+                                Call of Duty: Modern Warfare III Campaign: How
+                                to Play
+                            </h1>
+
+                            <span class="bg-[#9C978F] w-[45px]">MWIII</span>
+                            <p class="text-[#9C978F]">8 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-gray-600 border-b-[1px] pb-[25px]">
+                    <div class="flex flex-row gap-[25px]">
+                        <div class="overflow-hidden">
+                            <img
+                                src="/images/2.jpg"
+                                alt=""
+                                class="w-[300px] h-[100px] hover:scale-[1.1]"
+                            />
+                        </div>
+                        <div class="flex flex-col justify-evenly">
+                            <h1 class="text-white">
+                                Call of Duty: Modern Warfare III Campaign: How
+                                to Play
+                            </h1>
+
+                            <span class="bg-[#9C978F] w-[45px]">MWIII</span>
+                            <p class="text-[#9C978F]">8 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="border-gray-600 border-b-[1px] xl:border-none pb-[25px]"
+                >
+                    <div class="flex flex-row gap-[25px]">
+                        <div class="overflow-hidden">
+                            <img
+                                src="/images/2.jpg"
+                                alt=""
+                                class="w-[300px] h-[100px] hover:scale-[1.1]"
+                            />
+                        </div>
+                        <div class="flex flex-col justify-evenly">
+                            <h1 class="text-white">
+                                Call of Duty: Modern Warfare III Campaign: How
+                                to Play
+                            </h1>
+
+                            <span class="bg-[#9C978F] w-[45px]">MWIII</span>
+                            <p class="text-[#9C978F]">8 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="border-gray-600 border-b-[1px] xl:border-none pb-[25px]"
+                >
+                    <div class="flex flex-row gap-[25px]">
+                        <div class="overflow-hidden">
+                            <img
+                                src="/images/2.jpg"
+                                alt=""
+                                class="w-[300px] h-[100px] hover:scale-[1.1]"
+                            />
+                        </div>
+                        <div class="flex flex-col justify-evenly">
+                            <h1 class="text-white">
+                                Call of Duty: Modern Warfare III Campaign: How
+                                to Play
+                            </h1>
+
+                            <span class="bg-[#9C978F] w-[45px]">MWIII</span>
+                            <p class="text-[#9C978F]">8 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="border-gray-600 border-b-[1px] xl:border-none pb-[25px]"
+                >
+                    <div class="flex flex-row gap-[25px]">
+                        <div class="overflow-hidden">
+                            <img
+                                src="/images/2.jpg"
+                                alt=""
+                                class="w-[300px] h-[100px] hover:scale-[1.1]"
+                            />
+                        </div>
+                        <div class="flex flex-col justify-evenly">
+                            <h1 class="text-white">
+                                Call of Duty: Modern Warfare III Campaign: How
+                                to Play
+                            </h1>
+
+                            <span class="bg-[#9C978F] w-[45px]">MWIII</span>
+                            <p class="text-[#9C978F]">8 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-auto w-[120px]">
+                <hr
+                    class="absolute relative xl:w-[470%] xl:right-[585px] w-[100%] right-[125px] top-[20px]"
+                />
+                <hr
+                    class="absolute relative xl:w-[475%] xl:right-[-135px] w-[110%] right-[-110px] top-[20px]"
+                />
+                <button
+                    class="border-white border-[1px] xl:p-[15px] py-[10px] px-[15px] bg-[transparant] text-white xl:text-1xl text-[14px] hover:bg-[#373737]"
+                >
+                    VIEW MORE
+                </button>
+            </div>
+        </section>
+        <section class="flex-col flex gap-[50px] items-center py-[70px]">
+            <div class="">
+                <div
+                    class="text-[#adabab] px-[25px] xl:px-0 text-[14px] xl:text-[16px] font-black xl:flex xl:justify-center text-center xl:flex-row gap-[25px] xl-"
+                >
+                    <span class="p-[4px] xl:p-0">LEGAL</span>
+                    <span class="p-[4px] xl:p-0">|</span>
+                    <span class="p-[4px] xl:p-0">TERMS OF USE</span>
+                    <span class="p-[4px] xl:p-0">|</span>
+                    <span class="p-[4px] xl:p-0">PRIVACY POLICY</span>
+                    <span class="p-[4px] xl:p-0">|</span>
+                    <span class="p-[4px] xl:p-0">CAREERS</span>
+                    <span class="p-[4px] xl:p-0">|</span>
+                    <span class="p-[4px] xl:p-0">COOKIE POLICY</span>
+                    <span class="p-[4px] xl:p-0">|</span>
+                    <span class="p-[4px] xl:p-0">SUPPORT</span>
+                    <span class="p-[4px] xl:p-0">|</span>
+                    <span class="p-[4px] xl:p-0">CODE OF PRODUCT</span>
+                </div>
+                <div
+                    class="border-gray-500 border-b-[1px] xl:w-[1300px] w-[300px] mt-[25px] mx-auto"
+                ></div>
+            </div>
+            <div
+                class="flex xl:flex-col flex-row justify-center items-center gap-[45px]"
+            >
+                <div class="flex xl:flex-row flex-col gap-[50px]">
+                    <img
+                        src="/logo/activision-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/high-moon-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/shg-logo.png"
+                        alt=""
+                        class="w-[135px] h-[40px]"
+                    />
+                    <img
+                        src="/logo/treyarch-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/activision-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/high-moon-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                </div>
+                <div class="flex xl:flex-row flex-col gap-[50px]">
+                    <img
+                        src="/logo/activision-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/high-moon-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/shg-logo.png"
+                        alt=""
+                        class="w-[135px] h-[40px]"
+                    />
+                    <img
+                        src="/logo/treyarch-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/activision-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/high-moon-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                </div>
+            </div>
+            <div
+                class="border-gray-500 border-b-[1px] xl:w-[1300px] w-[350px]"
+            ></div>
+            <div class="flex-col flex justify-center items-center gap-[15px]">
+                <div class="flex flex-row gap-[25px]">
+                    <img
+                        src="/images/esrb-privacy.jpg"
+                        alt=""
+                        class="h-[80px]"
+                    />
+                    <img
+                        src="/images/cod-hub-esrb-en.png"
+                        alt=""
+                        class="w-[120px] h-[80px] float-right"
+                    />
+                </div>
+                <p
+                    class="text-center text-[10px] xl:text-[16px] text-[#adabab] xl:px-0 px-[15px]"
+                >
+                    © 2023 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY,
+                    CALL OF DUTY LEAGUE, MODERN WARFARE, CALL OF DUTY BLACK
+                    <br />
+                    OPS, CALL OF DUTY WARZONE and CALL OF DUTY VANGUARD are
+                    trademarks of Activision Publishing,<br
+                        class="hidden xl:block"
+                    />
+                    Inc. All other trademarks and trade names are the property
+                    of their respective owners.
+                </p>
+            </div>
+        </section>
+        <script src="app.js"></script>
+    </body>
+</html>

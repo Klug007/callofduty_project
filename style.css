@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+    /* overflow-x: hidden; */
+}
+
+.box-image {
+    background-image: url("https://images.purexbox.com/03f5c8bf223e8/call-of-duty-modern-warfare-3.900x.jpg");
+    position: absolute;
+    background-size: cover;
+    left: 500px;
+    z-index: 0;
+    height: 761px;
+    width: 1017px;
+    background-repeat: no-repeat;
+    background-color: black;
+    box-shadow: 25px 0px 25px -5px black inset;
+    overflow-x: hidden;
+}
+
+.box1 {
+    background-image: url(/images/IMG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box1:hover {
+    transform: scale(1.01);
+}
+
+.box2 {
+    background-image: url(/images/IMG2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2:hover {
+    transform: scale(1.01);
+}
+
+
+.box3 {
+    background-image: url(/images/IMG3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3:hover {
+    transform: scale(1.01);
+}
+
+
+.dropbtn {
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 6;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(31, 30, 30, 0.9);
+    min-width: 230px;
+    z-index: 3;
+    top: 50px;
+}
+
+.dropdown-content a {
+    position: relative;
+    z-index: 5;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 12px 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(21, 19, 19, 0.9);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+@media only screen and (max-width: 640px) {
+    .box-image {
+        left: -86px;
+        height: 500px;
+        width: 120%;
+    }
+    .box1 {
+        background-size: cover;
+        background-position: 70% 30%;
+    }
+    .box2 {
+        background-size: cover;
+        background-position: 60% 40%;
+    }
+    .box3 {
+        background-size: cover;
+        background-position: 60% 40%;
+    }
+
+    /* .line::after {
+        left:25%;
+    } */
+}

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <section class="bg-black">
+            <div class="box-image"></div>
+            <div class="font-bold overflow-hidden relative">
+                <nav class="my-[25px]">
+                    <div
+                        class="flex flex-row opacity-[0.95] justify-between items-center text-white xl:h-[45px] h-[40px] bg-[#0f0f0f] xl:mx-[80px] mx-[20px] xl:px-[10px] px-[15px]"
+                    >
+                        <div class="logo flex flex-row gap-[40px] items-center">
+                            <div class="flex flex-row gap-[15px]">
+                                <div class="dropdown">
+                                    <img
+                                        src="/images/icons8-menu-50.png"
+                                        alt=""
+                                        class="w-[20px] h-[20px] invert-[100%] xl:hidden block dropbtn"
+                                    />
+                                    <div class="dropdown-content left-[-15px] top-[40px]">
+                                        <a href="#">GAMES +</a>
+                                        <a href="/news/index.html">NEWS</a>
+                                        <a href="#">ESPORTS +</a>
+                                        <a href="#">SUPPORT</a>
+                                        <a href="#">SHOP +</a>
+                                    </div>
+                                </div>
+                                <a href="/">
+                                    <img
+                                        src="/images/cod-logo.svg"
+                                        alt=""
+                                        srcset=""
+                                        class="w-[90px] h-[25px]"
+                                    />
+                                </a>
+                            </div>
+
+                            <div
+                                class="xl:flex xl:flex-row xl:block hidden items-center"
+                            >
+                                <div class="dropdown">
+                                    <p
+                                        class="dropbtn hover:bg-[#0000003d] px-[15px] py-[12px]"
+                                    >
+                                        <a href="#">GAMES +</a>
+                                    </p>
+                                    <div class="dropdown-content">
+                                        <a href="#">MODERN WARFARE III</a>
+                                        <a href="#">MODERN WARFARE II</a>
+                                        <a href="#">COD: WARZONE</a>
+                                        <a href="#">VANGUARD</a>
+                                        <a href="#">COD: WARZONE MOBILE</a>
+                                        <a href="#">CALL OF DUTY: MOBILE</a>
+                                    </div>
+                                </div>
+
+                                <p
+                                    class="hover:bg-[#0000003d] px-[15px] py-[12px]"
+                                >
+                                    <a href="/news/index.html">NEWS</a>
+                                </p>
+                                <div class="dropdown">
+                                    <p
+                                        class="dropbtn hover:bg-[#0000003d] px-[15px] py-[12px]"
+                                    >
+                                        <a href="#">ESPORTS +</a>
+                                    </p>
+                                    <div class="dropdown-content">
+                                        <a href="#">CALL OF DUTY LEAGUE</a>
+                                        <a href="#">MODERN WARFARE II</a>
+                                        <a href="#">COD: WARZONE</a>
+                                    </div>
+                                </div>
+
+                                <p
+                                    class="hover:bg-[#0000003d] px-[15px] py-[12px]"
+                                >
+                                    <a href="#">SUPPORT</a>
+                                </p>
+                                <div class="dropdown">
+                                    <p
+                                        class="dropbtn hover:bg-[#0000003d] px-[15px] py-[12px]"
+                                    >
+                                        <a href="#">SHOP +</a>
+                                    </p>
+                                    <div class="dropdown-content">
+                                        <a href="#">CALL OF DUTY LEAGUE</a>
+                                        <a href="#">MODERN WARFARE II</a>
+                                        <a href="#">BUY: VANGUARD</a>
+                                        <a href="#">COD GEAR SHOP</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="xl:flex xl:flex-row xl:items-center xl:gap-[25px]"
+                        >
+                            <p class="hidden xl:block">
+                                <a href="/login/index.html">lOGIN</a> |
+                                <button
+                                    class="border-none"
+                                    onclick="logout()"
+                                    href=""
+                                >
+                                    LOGOUT
+                                </button>
+                            </p>
+                            <button
+                                class="bg-white text-black xl:text-[14px] text-[10px] whitespace-nowrap px-[10px] py-[5px] rounded-[2px] font-extrabold hover:outline hover:outline-[2px] hover:outline-offset-4 hover:outline-[white] transition ease-in duration-300"
+                            >
+                                PRE-ORDER NWIII
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+                <div
+                    class="xl:mx-[80px] mx-[20px] text-white font-bold flex flex-col justify-evenly xl:gap-[25px] gap-[5px] mt-[57px]"
+                >
+                    <div class="flex flew-row items-center">
+                        <img
+                            src="/images/MWIII-eyebrow.svg"
+                            alt=""
+                            class="xl:h-[140px] xl:w-[120px] w-[80px] h-[80px] my-[10px]"
+                        />
+                        <div class="w-[50px] ml-[15px]"><hr></div>
+                    </div>
+
+                    <h1
+                        class="xl:text-[110px] text-4xl font-extrabold xl:leading-[110px] leading-[40px] tracking-tighter overflow-hidden"
+                    >
+                        EARLY ACCESS <br />
+                        NOW LIVE
+                    </h1>
+                    <p class="text-xl mb-[30px]">
+                        Modern Warfare III Campaign EArly Access* is now live.
+                        Pre-order <br />
+                        to join Task Force 141 in their fight against Makarov
+                    </p>
+                    <button
+                        class="border-gray w-40 bg-[#0000003d] hover:bg-[#141414] border-[1px] text-white text-[14px] px-[10px] xl:mb-[50px] mb-0 py-[10px] font-extrabold"
+                    >
+                        PRE-ORDER NWIII
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section
+            class="text-white xl:px-[40px] px-[20px] py-[80px] bg-[#1b1b1b] flex xl:flex-row flex-col font-extrabold"
+        >
+            <div class="grid grid-cols-1 gap-[50px]">
+                <div class="overflow-hidden">
+                    <div
+                        class="overflow-hidden cursor-pointer box1 xl:w-[850px] xl:h-[350px] w-[385px] h-[340px] flex flex-col justify-end p-[25px] border-gray-600 border-[1px]"
+                    >
+                        <div class="flex justify-evenly flex-col gap-[24px]">
+                            <img
+                                src="/images/cod-logo.svg"
+                                alt=""
+                                class="w-[120px] h-[20px]"
+                            />
+                            <h1 class="text-2xl">BLACKCELL</h1>
+                            <p class="text-gray-400">
+                                Spawn into Season 06 with the Operator Skin
+                                V4L3RIA, and other elite rewards
+                            </p>
+                            <a href="" class="xl:text-[14px] text-[12px]"
+                                >LEVEL UP >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 xl:grid-cols-2 gap-[50px]">
+                    <div
+                        class="cursor-pointer box2 xl:w-[400px] xl:h-[380px] w-[385px] h-[350px] flex justify-end flex-col border-gray-600 border-[1px]"
+                    >
+                        <div
+                            class="flex justify-evenly flex-col gap-[24px] px-[25px] py-[15px]"
+                        >
+                            <h1 class="font-extrabold">WARZONE MOBILE</h1>
+                            <h2 class="text-2xl">
+                                TAKE THE FIGHT <br />
+                                with you
+                            </h2>
+                            <p class="text-[14px]">SIGN UP ></p>
+                        </div>
+                    </div>
+                    <div
+                        class="cursor-pointer box3 xl:w-[400px] xl:h-[380px] w-[385px] h-[350px] flex justify-end flex-col border-gray-600 border-[1px]"
+                    >
+                        <div
+                            class="flex justify-evenly flex-col gap-[24px] px-[25px] py-[15px]"
+                        >
+                            <h1>WARZONE</h1>
+                            <h2 class="text-2xl">THE HAUNTING TAKES OVER</h2>
+                            <p class="text-[14px]">DEPLOY NOW ></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="cursor-pointer flex-col justify-between xl:ml-[50px] xl:mt-0 mt-[50px]"
+            >
+                <h1
+                    class="text-4xl font-black border-gray-600 border-b-[1px] pb-[2px] mb-[15px]"
+                >
+                    NEWS
+                </h1>
+                <div class="border-gray-600 border-b-[1px] pb-[15px]">
+                    <div
+                        class="xl:w-[420px] w-[342px] xl:h-[236px] cursor-pointer"
+                    >
+                        <img
+                            src="/images/img4.jpg"
+                            alt=""
+                            srcset=""
+                            class="object-cover"
+                        />
+                    </div>
+                    <h1 class="text-2xl mt-[15px]">
+                        Modern Warfare III Weapon <br />
+                        Camos: All the details
+                    </h1>
+                    <p>
+                        <span
+                            class="bg-[gray] text-black text-[10px] px-[5px] py-[5px]"
+                            >MWIII</span
+                        >
+                        <span class="text-gray-600">3 days ago</span>
+                    </p>
+                </div>
+
+                <div class="flex flex-col justify-around gap-[25px]">
+                    <div
+                        class="cursor-pointer border-gray-600 border-b-[1px] pb-[15px]"
+                    >
+                        <img
+                            src="/images/img5.png"
+                            alt=""
+                            class="float-left xl:w-[130px] xl:h-[75px] w-[120px] h-[60px] pr-[25px]"
+                        />
+                        <h1>
+                            Gear Up: Modern Warfare III <br />
+                            Loadouts: What You Need to Know
+                        </h1>
+                        <p class="text-center">
+                            <span
+                                class="bg-[gray] text-black text-[10px] px-[5px] py-[5px]"
+                                >MWIII</span
+                            >
+                            <span class="text-gray-600">6 days ago</span>
+                        </p>
+                    </div>
+                    <div
+                        class="cursor-pointer border-gray-600 border-b-[1px] pb-[15px]"
+                    >
+                        <img
+                            src="/images/img5.png"
+                            alt=""
+                            class="float-left xl:w-[130px] xl:h-[75px] w-[120px] h-[60px] pr-[25px]"
+                        />
+                        <h1>
+                            Gear Up: Modern Warfare III <br />
+                            Loadouts: What You Need to Know
+                        </h1>
+                        <p class="text-center">
+                            <span
+                                class="bg-[gray] text-black text-[10px] px-[5px] py-[5px]"
+                                >MWIII</span
+                            >
+                            <span class="text-gray-600">6 days ago</span>
+                        </p>
+                    </div>
+                    <div
+                        class="cursor-pointer border-gray-600 border-b-[1px] pb-[15px]"
+                    >
+                        <img
+                            src="/images/img5.png"
+                            alt=""
+                            class="float-left xl:w-[130px] xl:h-[75px] w-[120px] h-[60px] pr-[25px]"
+                        />
+                        <h1>
+                            Gear Up: Modern Warfare III <br />
+                            Loadouts: What You Need to Know
+                        </h1>
+                        <p class="text-center">
+                            <span
+                                class="bg-[gray] text-black text-[10px] px-[5px] py-[5px]"
+                                >MWIII</span
+                            >
+                            <span class="text-gray-600">8 days ago</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="bg-[#1b1b1b] text-white font-black px-[50px] py-[80px] flex flex-col gap-[35px]"
+        >
+            <h1 class="text-3xl border-gray-600 border-b-[1px] pb-[15px]">
+                GET THE GAME
+            </h1>
+            <div class="flex xl:flex-row flex-col justify-between gap-[50px]">
+                <div class="relative overflow-hidden">
+                    <img
+                        src="/images/img6.webp"
+                        alt="Game Image"
+                        class="object-cover h-[350px] w-full xl:h-auto xl:w-auto hover:scale-[1.1]"
+                    />
+                    <!-- <div class="absolute w-[220px] h-[137px]"> -->
+                    <img
+                        src="/images/Logo1.png"
+                        alt=""
+                        class="object-cover absolute w-[220px] h-[137px] bottom-[0] right-[40px]"
+                    />
+                    <!-- </div> -->
+                </div>
+                <div class="relative overflow-hidden">
+                    <img
+                        src="/images/img7.webp"
+                        alt="Game Image"
+                        class="object-cover h-[350px] w-full xl:h-auto xl:w-auto hover:scale-[1.1]"
+                    />
+                    <div
+                        class="absolute w-[230px] h-[78px] bottom-[25px] left-[40px]"
+                    >
+                        <img
+                            src="/images/Logo2.svg"
+                            alt=""
+                            class="object-cover"
+                        />
+                    </div>
+                </div>
+                <div class="relative overflow-hidden">
+                    <img
+                        src="/images/img8.webp"
+                        alt="Game Image"
+                        class="object-cover relative h-[350px] w-full xl:h-auto xl:w-auto hover:scale-[1.1]"
+                    />
+                    <div
+                        class="overflow-hidden absolute w-[180px] h-[96px] bottom-[25px] left-[60px]"
+                    >
+                        <img
+                            src="/images/cod-mw2-logo.svg"
+                            alt=""
+                            class="object-cover"
+                        />
+                    </div>
+                </div>
+                <div class="relative overflow-hidden">
+                    <img src="/images/img9.jpg"Game Image" class="object-cover
+                    h-[350px] w-full xl:h-auto xl:w-auto hover:scale-[1.1]">
+                    <div
+                        class="absolute w-[250px] h-[68px] bottom-[25px] right-[25px]"
+                    >
+                        <img
+                            src="/images/Logo4.svg"
+                            alt=""
+                            class="object-cover"
+                        />
+                    </div>
+                </div>
+            </div>
+            <p class="text-[12px] xl:text-1xl">
+                *Actual play time subject to possible outages and applicable
+                time zone differences.
+            </p>
+        </section>
+        <section
+            class="bg-black flex-col flex gap-[50px] items-center py-[70px]"
+        >
+            <div class="">
+                <div
+                    class="text-[#adabab] px-[25px] xl:px-0 text-[14px] xl:text-[16px] font-black xl:flex xl:justify-center text-center xl:flex-row gap-[25px] xl-"
+                >
+                    <span class="p-[4px] xl:p-0">LEGAL</span>
+                    <span class="p-[4px] xl:p-0">|</span>
+                    <span class="p-[4px] xl:p-0">TERMS OF USE</span>
+                    <span class="p-[4px] xl:p-0">|</span>
+                    <span class="p-[4px] xl:p-0">PRIVACY POLICY</span>
+                    <span class="p-[4px] xl:p-0">|</span>
+                    <span class="p-[4px] xl:p-0">CAREERS</span>
+                    <span class="p-[4px] xl:p-0">|</span>
+                    <span class="p-[4px] xl:p-0">COOKIE POLICY</span>
+                    <span class="p-[4px] xl:p-0">|</span>
+                    <span class="p-[4px] xl:p-0">SUPPORT</span>
+                    <span class="p-[4px] xl:p-0">|</span>
+                    <span class="p-[4px] xl:p-0">CODE OF PRODUCT</span>
+                </div>
+                <div
+                    class="border-gray-500 border-b-[1px] xl:w-[1300px] w-[300px] mt-[25px] mx-auto"
+                ></div>
+            </div>
+            <div
+                class="flex xl:flex-col flex-row justify-center items-center gap-[45px]"
+            >
+                <div class="flex xl:flex-row flex-col gap-[50px]">
+                    <img
+                        src="/logo/activision-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/high-moon-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/shg-logo.png"
+                        alt=""
+                        class="w-[135px] h-[40px]"
+                    />
+                    <img
+                        src="/logo/treyarch-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/activision-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/high-moon-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                </div>
+                <div class="flex xl:flex-row flex-col gap-[50px]">
+                    <img
+                        src="/logo/activision-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/high-moon-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/shg-logo.png"
+                        alt=""
+                        class="w-[135px] h-[40px]"
+                    />
+                    <img
+                        src="/logo/treyarch-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/activision-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                    <img
+                        src="/logo/high-moon-logo.png"
+                        alt=""
+                        class="w-[135px]"
+                    />
+                </div>
+            </div>
+            <div
+                class="border-gray-500 border-b-[1px] xl:w-[1300px] w-[350px]"
+            ></div>
+            <div class="flex-col flex justify-center items-center gap-[15px]">
+                <div class="flex flex-row gap-[25px]">
+                    <img
+                        src="/images/esrb-privacy.jpg"
+                        alt=""
+                        class="h-[80px]"
+                    />
+                    <img
+                        src="/images/cod-hub-esrb-en.png"
+                        alt=""
+                        class="w-[120px] h-[80px] float-right"
+                    />
+                </div>
+                <p
+                    class="text-center text-[10px] xl:text-[16px] text-[#adabab] xl:px-0 px-[15px]"
+                >
+                    © 2023 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY,
+                    CALL OF DUTY LEAGUE, MODERN WARFARE, CALL OF DUTY BLACK
+                    <br />
+                    OPS, CALL OF DUTY WARZONE and CALL OF DUTY VANGUARD are
+                    trademarks of Activision Publishing,<br
+                        class="hidden xl:block"
+                    />
+                    Inc. All other trademarks and trade names are the property
+                    of their respective owners.
+                </p>
+            </div>
+        </section>
+        <script src="app.js"></script>
+    </body>
+</html>
